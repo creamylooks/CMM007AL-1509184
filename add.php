@@ -52,10 +52,10 @@
             <!-- End of Footer Section -->
 </body>
 </html>
-        <?php if($_SERVER['REQUEST_METHOD']=='GET'){
+        <?php if($_SERVER['REQUEST_METHOD']==='GET'){
             header ("location:add.php");
         }
-        elseif($_SERVER['REQUEST_METHOD']=='POST'){
+        elseif($_SERVER['REQUEST_METHOD']==='POST'){
             $title=$_POST['title'];
             $summary = $_POST['summary'];
             $categ = $_POST['category'];
@@ -64,5 +64,5 @@
 
             $sql="INSERT INTO blogview (entryTitle,entrySummary,category, submitter) VALUES ($title,$summary,$categ,$submitter)";
             $res=mysqli_query($sercon,$sql);
-        }else{header("location:index.php");}
+        }//else{header("location:index.php");}
         ?>
