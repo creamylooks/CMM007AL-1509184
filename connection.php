@@ -11,7 +11,7 @@ define ('PASSWORD','d9cd6971');
 define ('HOST','CMM007ALDB-1509184');
 $sercon=mysqli_connect (SERVER,USER,PASSWORD,HOST);
 
-if ($sercon->connect_error) {
-    die("Connection failed: " . $sercon->connect_error);
-}
-echo "Connected successfully";
+//if ($sercon->connect_error) {
+   // die("Connection failed: " . $sercon->connect_error);
+//}
+//echo "Connected successfully";
