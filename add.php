@@ -52,7 +52,8 @@
             <!-- End of Footer Section -->
 </body>
 </html>
-        <?php if($_SERVER['REQUEST_METHOD']==='GET'){
+        <?php include('connection.php');
+        if($_SERVER['REQUEST_METHOD']==='GET'){
             header ("location:add.php");
         }
         elseif($_SERVER['REQUEST_METHOD']==='POST'){
