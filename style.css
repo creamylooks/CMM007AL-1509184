@@ -62,4 +62,7 @@ form{
 input[type=text]{
     margin-left: 4.5%;
 }
+footer{
+    border-top: 2px solid darkgray;
+}
 
