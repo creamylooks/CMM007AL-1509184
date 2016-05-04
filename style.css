@@ -28,6 +28,9 @@ h1{
     font-family: 'Dancing Script', cursive;
     font-size: 400%;
 }
+h3 p{
+    font-family: 'Slabo', serif;
+}
 a{
     text-decoration: none;
 }
