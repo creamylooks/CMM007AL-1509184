@@ -54,7 +54,7 @@
                 while ($row > 0) {
                     $answer = mysqli_fetch_array($res);
                     echo "<section>
-                        <h2>{$answer['entryTitle']} by {$answer['submitter']} </h2>
+                        <h3>{$answer['entryTitle']} by {$answer['submitter']} </h3>
                         <p>{$answer['category']}</p>
                         <p>{$answer['entrySummary']}</p>
                   </section>";
@@ -68,7 +68,7 @@
                 while ($row > 0) {
                     $answer = mysqli_fetch_array($res);
                     echo "<section>
-                        <h2>{$answer['entryTitle']} by {$answer['submitter']} </h2>
+                        <h3>{$answer['entryTitle']} by {$answer['submitter']} </h3>
                         <p>{$answer['category']}</p>
                         <p>{$answer['entrySummary']}</p>
                   </section>";
@@ -82,7 +82,7 @@
                 while ($row > 0) {
                     $answer = mysqli_fetch_array($res);
                     echo "<section>
-                         <h2>{$answer['entryTitle']} by {$answer['submitter']} </h2>
+                         <h3>{$answer['entryTitle']} by {$answer['submitter']} </h3>
                         <p>{$answer['category']}</p>
                         <p>{$answer['entrySummary']}</p>
                   </section>";
@@ -96,7 +96,7 @@
                 while ($row > 0) {
                     $answer = mysqli_fetch_array($res);
                     echo "<section>
-                        <h2>{$answer['entryTitle']} by {$answer['submitter']} </h2>
+                        <h3>{$answer['entryTitle']} by {$answer['submitter']} </h3>
                         <p>{$answer['category']}</p>
                         <p>{$answer['entrySummary']}</p>
                   </section>";
